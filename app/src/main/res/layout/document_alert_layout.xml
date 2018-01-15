@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Send"
+        android:textColor="#fff"
+        android:id="@+id/btnSend"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:id="@+id/inputMobile"
+        android:layout_below="@+id/btnSend"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMobile"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:digits="0123456789"
+            android:textSize="17sp"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputMobile"
+        android:text="Click on Check"
+        android:id="@+id/txtMobileStatus"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMobileStatus"
+        android:layout_below="@+id/inputMobile"
+        android:layout_alignParentEnd="true"
+        android:text="Check"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:layout_below="@+id/btnMobileStatus"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter your text here..."
+        android:gravity="center"
+        android:padding="5dp"
+        android:id="@+id/txtDescription"
+        android:imeOptions="actionDone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/txtDescription"
+        android:layout_marginTop="10dp"
+        android:id="@+id/attachmentLayout">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_attachment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#4556b7"
+            android:text="Add File..."/>
+    </LinearLayout>
+</RelativeLayout>

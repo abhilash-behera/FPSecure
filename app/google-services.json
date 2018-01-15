@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "208090562084",
+    "firebase_url": "https://fpsecure-f7b7b.firebaseio.com",
+    "project_id": "fpsecure-f7b7b",
+    "storage_bucket": "fpsecure-f7b7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208090562084:android:8b3f57e174ce9d03",
+        "android_client_info": {
+          "package_name": "com.abhilash.developer.fpsecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208090562084-9qb2kk2gt3eljs6be5rjgvkk8qn6klae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhilash.developer.fpsecure",
+            "certificate_hash": "aa0cccea02beddec2fe4af2a1bda323b5f1bdf25"
+          }
+        },
+        {
+          "client_id": "208090562084-8l7ju2lo058b7uchto9ki2ivpuchh4gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUDRWQzYVrZ-AbNlwjl59XLrwXb5wN_Xs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208090562084-8l7ju2lo058b7uchto9ki2ivpuchh4gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
